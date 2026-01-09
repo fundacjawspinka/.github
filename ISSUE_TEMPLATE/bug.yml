@@ -1,0 +1,24 @@
+name: Bug
+description: Zgłoś błąd
+type: "bug"
+projects: ["fundacjawspinka/1"]
+body:
+  - type: textarea
+    id: repro
+    attributes:
+      label: Kroki reprodukcji
+      description: Co trzeba zrobić krok po kroku?
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Oczekiwane zachowanie
+    validations:
+      required: true
+  - type: textarea
+    id: actual
+    attributes:
+      label: Rzeczywiste zachowanie
+    validations:
+      required: true
