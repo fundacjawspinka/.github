@@ -1,6 +1,6 @@
 name: Bug
 description: Zgłoś błąd
-type: "bug"
+type: bug
 projects: ["fundacjawspinka/1"]
 body:
   - type: textarea
