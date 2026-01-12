@@ -1,4 +1,4 @@
-name: "Zadanie techniczne"
+name: "Zadanie Techniczne"
 description: "Zgłoś zadanie developerskie | infra | CI/CD"
 type: zadanie
 projects: ["fundacjawspinka/1"]
@@ -8,6 +8,7 @@ body:
     attributes:
       label: "Opis zadania"
       description: "Uzupełnij tyle, ile możesz. Im konkretniej, tym łatwiej estymować i dowieźć."
+      placeholder: "W tym zadaniu należy ..."
     validations:
       required: true
 
@@ -19,7 +20,7 @@ body:
       placeholder: |
         - [ ] Kod + review
         - [ ] Testy (unit/e2e) zaktualizowane
-        - [ ] Dokumentacja / changelog (jeśli dotyczy)
+        - [ ] Dokumentacja
         - [ ] Deploy zweryfikowany
     validations:
       required: true
