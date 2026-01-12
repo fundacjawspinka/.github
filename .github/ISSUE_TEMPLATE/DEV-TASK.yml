@@ -1,0 +1,24 @@
+name: "Zadanie techniczne"
+description: "Zgłoś zadanie developerskie | infra | CI/CD"
+type: task
+projects: ["fundacjawspinka/1"]
+priorytet: niski
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Uzupełnij tyle, ile możesz. Im konkretniej, tym łatwiej estymować i dowieźć.
+
+  - type: textarea
+    id: definition_of_done
+    attributes:
+      label: "Definition of Done"
+      description: "Warunki ukończenia (checklista)."
+      placeholder: |
+        - [ ] Kod + review
+        - [ ] Testy (unit/e2e) zaktualizowane
+        - [ ] Dokumentacja / changelog (jeśli dotyczy)
+        - [ ] Deploy zweryfikowany
+    validations:
+      required: true
+

@@ -1,7 +1,8 @@
-name: Bug Report
-description: Zgłoś błąd
+name: Zgłoszenie Błędu
+description: Zgłoś błąd dokumentując co nie działa i jak powinno działać.
 type: bug
 projects: ["fundacjawspinka/1"]
+priorytet: niski
 body:
   - type: textarea
     id: repro
@@ -14,11 +15,13 @@ body:
     id: expected
     attributes:
       label: Oczekiwane zachowanie
+      description: Jak powinno to wyglądać, zachowywać się?
     validations:
       required: true
   - type: textarea
     id: actual
     attributes:
       label: Rzeczywiste zachowanie
+      description: Jak obecnie to wygląda, zachowuje się?
     validations:
       required: true

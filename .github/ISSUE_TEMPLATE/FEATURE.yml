@@ -1,0 +1,34 @@
+name: "Nowa funkcjonalność"
+description: "Zaproponuj nową funkcję lub usprawnienie produktu"
+type: feature
+projects: ["fundacjawspinka/1"]
+priorytet: niski
+body:
+  - type: markdown
+    id: user_story
+    attributes:
+      label: "User Story"
+      description: "Format: Jako <rola> chcę <co>, aby <dlaczego>."
+      placeholder: "Jako użytkownik chcę ..., aby ..."
+    validations:
+      required: true
+
+  - type: textarea
+    id: acceptance_criteria
+    attributes:
+      label: "Acceptance Criteria"
+      description: "Konkretne warunki akceptacji (checklista)."
+      placeholder: |
+        - [ ] ...
+        - [ ] ...
+    validations:
+      required: true
+
+  - type: input
+    id: links
+    attributes:
+      label: "Linki / Referencje"
+      description: "Link do makiet, dokumentacji, wątku, konkurencji itp."
+      placeholder: "https://..."
+    validations:
+      required: false
