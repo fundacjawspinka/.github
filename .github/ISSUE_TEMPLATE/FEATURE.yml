@@ -1,6 +1,5 @@
 name: "Nowa funkcjonalność"
 description: "Zaproponuj nową funkcję lub usprawnienie produktu"
-type: "funkcjonalność"
 projects: ["fundacjawspinka/1"]
 body:
   - type: markdown
