@@ -4,9 +4,9 @@ type: zadanie
 projects: ["fundacjawspinka/1"]
 body:
   - type: markdown
+    id: task_description
     attributes:
-      value: |
-        Uzupełnij tyle, ile możesz. Im konkretniej, tym łatwiej estymować i dowieźć.
+      description: "Uzupełnij tyle, ile możesz. Im konkretniej, tym łatwiej estymować i dowieźć.""
 
   - type: textarea
     id: definition_of_done
