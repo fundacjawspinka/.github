@@ -2,7 +2,6 @@ name: Zgłoszenie Błędu
 description: Zgłoś błąd dokumentując co nie działa i jak powinno działać.
 type: bug
 projects: ["fundacjawspinka/1"]
-priorytet: niski
 body:
   - type: textarea
     id: repro
