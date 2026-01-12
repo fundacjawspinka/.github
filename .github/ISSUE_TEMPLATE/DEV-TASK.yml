@@ -2,7 +2,6 @@ name: "Zadanie techniczne"
 description: "Zgłoś zadanie developerskie | infra | CI/CD"
 type: task
 projects: ["fundacjawspinka/1"]
-priorytet: niski
 body:
   - type: markdown
     attributes:

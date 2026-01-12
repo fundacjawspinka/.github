@@ -2,7 +2,6 @@ name: "Nowa funkcjonalność"
 description: "Zaproponuj nową funkcję lub usprawnienie produktu"
 type: feature
 projects: ["fundacjawspinka/1"]
-priorytet: niski
 body:
   - type: markdown
     id: user_story
