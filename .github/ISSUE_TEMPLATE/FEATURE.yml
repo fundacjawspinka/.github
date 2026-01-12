@@ -1,8 +1,9 @@
 name: "Nowa funkcjonalność"
 description: "Zaproponuj nową funkcję lub usprawnienie produktu"
 projects: ["fundacjawspinka/1"]
+type: "funkcjonalność"
 body:
-  - type: markdown
+  - type: textarea
     id: user_story
     attributes:
       label: "User Story"

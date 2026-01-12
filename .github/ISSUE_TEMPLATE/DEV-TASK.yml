@@ -3,7 +3,7 @@ description: "Zgłoś zadanie developerskie | infra | CI/CD"
 type: zadanie
 projects: ["fundacjawspinka/1"]
 body:
-  - type: markdown
+  - type: textarea
     id: task_description
     attributes:
       label: "Opis zadania"
