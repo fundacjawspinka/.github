@@ -6,7 +6,8 @@ body:
   - type: markdown
     id: task_description
     attributes:
-      description: "Uzupełnij tyle, ile możesz. Im konkretniej, tym łatwiej estymować i dowieźć.""
+      title: "Opis zadania"
+      description: "Uzupełnij tyle, ile możesz. Im konkretniej, tym łatwiej estymować i dowieźć."
 
   - type: textarea
     id: definition_of_done
@@ -20,4 +21,3 @@ body:
         - [ ] Deploy zweryfikowany
     validations:
       required: true
-
