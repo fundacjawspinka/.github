@@ -1,0 +1,47 @@
+name: "Test Case"
+description: "Przypadek testowy – biblioteka testów manualnych"
+body:
+  - type: dropdown
+    id: area
+    attributes:
+      label: Area
+      description: Obszar aplikacji
+      options:
+        - Auth
+        - Profile
+        - Wyszukiwarka
+        - Mapa
+        - Settings
+        - Organizer
+        - Profil wspinacza
+    validations:
+      required: true
+
+  - type: textarea
+    id: preconditions
+    attributes:
+      label: Konfiguracja wstępna
+      description: Stan aplikacji, konta, feature flagi, uprawnienia, środowisko, dane testowe (bez sekretów)
+      placeholder: |
+        - User: wylogowany
+        - Env: QA
+        - Dane: konto testowe X
+        - Flags: ...
+    validations:
+      required: false
+
+  - type: textarea
+    id: steps_expected
+    attributes:
+      label: Kroki
+      description: Minimalnie: kroki i oczekiwane. Jeśli masz warianty (Google/Apple/Facebook), opisz je w sekcji Warianty.
+    validations:
+      required: true
+
+  - type: textarea
+    id: variants
+    attributes:
+      label: Warianty / Parametry (opcjonalnie)
+      description: Parametryzacja testu (np. provider=Google/Apple/Facebook, scenariusze cancel, brak sieci, różne role)
+    validations:
+      required: false
