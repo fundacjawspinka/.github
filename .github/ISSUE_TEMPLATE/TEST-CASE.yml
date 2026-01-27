@@ -21,7 +21,7 @@ body:
     id: preconditions
     attributes:
       label: Konfiguracja wstępna
-      description: Stan aplikacji, konta, feature flagi, uprawnienia, środowisko, dane testowe (bez sekretów)
+      description: "Stan aplikacji, konta, feature flagi, uprawnienia, środowisko, dane testowe (bez sekretów)"
       placeholder: |
         - User: wylogowany
         - Env: QA
@@ -34,7 +34,7 @@ body:
     id: steps_expected
     attributes:
       label: Kroki
-      description: Minimalnie: kroki i oczekiwane. Jeśli masz warianty (Google/Apple/Facebook), opisz je w sekcji Warianty.
+      description: "Minimalnie: kroki i oczekiwane. Jeśli masz warianty (Google/Apple/Facebook), opisz je w sekcji Warianty"
     validations:
       required: true
 
@@ -42,6 +42,6 @@ body:
     id: variants
     attributes:
       label: Warianty / Parametry (opcjonalnie)
-      description: Parametryzacja testu (np. provider=Google/Apple/Facebook, scenariusze cancel, brak sieci, różne role)
+      description: "Parametryzacja testu (np. provider=Google/Apple/Facebook, scenariusze cancel, brak sieci, różne role)"
     validations:
       required: false
