@@ -1,10 +1,11 @@
 name: "Test Case"
 description: "Przypadek testowy – biblioteka testów manualnych"
+labels: ["testcase"]
 body:
   - type: dropdown
     id: area
     attributes:
-      label: Area
+      label: Obszar
       description: Obszar aplikacji
       options:
         - Auth
