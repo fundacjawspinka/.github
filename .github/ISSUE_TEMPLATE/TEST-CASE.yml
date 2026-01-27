@@ -1,6 +1,7 @@
 name: "Test Case"
 description: "Przypadek testowy – biblioteka testów manualnych"
 type: testcase
+projects: ["fundacjawspinka/1"]
 body:
   - type: dropdown
     id: area
