@@ -1,6 +1,6 @@
 name: "Test Case"
 description: "Przypadek testowy – biblioteka testów manualnych"
-labels: ["testcase"]
+type: testcase
 body:
   - type: dropdown
     id: area
