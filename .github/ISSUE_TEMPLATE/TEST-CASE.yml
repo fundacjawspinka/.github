@@ -7,15 +7,18 @@ body:
     id: area
     attributes:
       label: Obszar
-      description: Obszar aplikacji
+      description: Obszar aplikacji mobilnej, panelu admina
       options:
-        - Auth
-        - Profile
+        - Obiekty wspinaczkowe
         - Wyszukiwarka
         - Mapa
+        - Auth
+        - Profil
         - Settings
         - Organizer
         - Profil wspinacza
+        - Użytkownicy
+        - Media
     validations:
       required: true
 
@@ -28,7 +31,6 @@ body:
         - User: wylogowany
         - Env: QA
         - Dane: konto testowe X
-        - Flags: ...
     validations:
       required: false
 
